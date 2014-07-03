@@ -1,0 +1,10 @@
+add_library(gl3n
+    aabb.d
+    frustum.d
+    interpolate.d
+    linalg.d
+    math.d
+    plane.d
+    util.d
+    ext/hsv.d
+    ext/matrixstack.d)
