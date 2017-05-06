@@ -9,3 +9,9 @@ include_directories(SYSTEM "${CMAKE_SYSTEM_ROOT}/include/d")
 include_directories("${CMAKE_CURRENT_SOURCE_DIR}")
 
 add_subdirectory(gl3n)
+
+install(
+    DIRECTORY   gl3n
+    DESTINATION include/d
+    FILES_MATCHING
+        PATTERN "*.d")
